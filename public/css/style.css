@@ -1,0 +1,62 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	background:url(../images/bg.jpg) repeat-x;
+	font-family: Candara,Calibri,Arial,Tahoma,Helvetica,sans-serif;
+}
+
+.table > tbody.files > tr > td
+{
+    vertical-align: middle !important;
+}
+
+.table > tbody.files > tr > td > p
+{
+    margin: 0 !important;
+}
+
+#wrapper
+{
+	margin-top: 20px;
+}
+
+	#file-share
+	{
+		padding-top: 20px;
+		font-size: 20px;
+		color: #464749;
+		font-weight: bold;
+	}
+	
+	.finki-text-small
+	{
+		font-size: 10px;
+	}
+	
+	.finki-text-medium
+	{
+		font-size: 12px;
+	}
+	
+	.finki-small-box-center
+	{
+		width: 50% !important;
+		margin: 0 auto;
+	}
+	
+	.finki-medium-box
+	{
+		width: 77% !important;
+		margin: 0 auto;
+	}
+	
+	input[type=file] 
+	{
+		display: block;
+	}
+
